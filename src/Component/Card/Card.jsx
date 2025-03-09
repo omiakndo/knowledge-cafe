@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faBookmark} from '@fortawesome/free-solid-svg-icons'
 import './Card.css'
 const Card = () => {
     return (
@@ -16,11 +18,12 @@ const Card = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='time'> 05 min read</p>
+                            <p className='time'> 05 min read <FontAwesomeIcon icon={faBookmark} /> </p>
                         </div>
                     </div>
 
                     <h1 className='dis'>How to get your first job as a <br /> self-taught programmer</h1>
+                    <button className='btn'>Mark as read</button>
                     <hr className='hr-pr' />
                 </div>
 
@@ -40,11 +43,12 @@ const Card = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='time'> 07 min read</p>
+                            <p className='time'> 07 min read <FontAwesomeIcon icon={faBookmark} /></p>
                         </div>
                     </div>
 
                     <h1 className='dis'>How to get your first job as a <br /> self-taught programmer</h1>
+                    <button className='btn'>Mark as read</button>
                     <hr className='hr-pr' />
                 </div>
             </div>
@@ -61,11 +65,12 @@ const Card = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='time'> 10 min read</p>
+                            <p className='time'> 10 min read <FontAwesomeIcon icon={faBookmark} /></p>
                         </div>
                     </div>
 
                     <h1 className='dis'>How to get your first job as a <br /> self-taught programmer</h1>
+                    <button className='btn'>Mark as read</button>
                     <hr className='hr-pr' />
                 </div>
             </div>
@@ -82,11 +87,12 @@ const Card = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='time'> 15 min read</p>
+                            <p className='time'> 15 min read <FontAwesomeIcon icon={faBookmark} /></p>
                         </div>
                     </div>
 
                     <h1 className='dis'>How to get your first job as a <br /> self-taught programmer</h1>
+                    <button className='btn'>Mark as read</button>
                     <hr className='hr-pr' />
                 </div>
             </div>

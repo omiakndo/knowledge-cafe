@@ -57,3 +57,17 @@ line-height: 160%; /* 64px */
 width: 80%;
 margin-left: 0px;
 }
+.btn{
+    color: #6047EC;
+font-family: "Exo 2";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
