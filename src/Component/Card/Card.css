@@ -1,0 +1,59 @@
+.img-card{
+    width: 80%;
+}
+.full-pr{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.pr{
+    display: flex;
+    align-items: center;
+    
+}
+.name{
+    margin-left: 17px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #111;
+font-family: "Exo 2";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 38.4px */
+}
+
+.active{
+    margin-left: 17px;
+    margin-top: 0px;
+    color: rgba(17, 17, 17, 0.60);
+font-family: "Exo 2";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 25.6px */
+}
+
+.time{
+    color: rgba(17, 17, 17, 0.60);
+
+font-family: "Exo 2";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.dis{
+    margin: 0px;
+    color: #111;
+font-family: "Exo 2";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 64px */
+}
+.hr-pr{
+width: 80%;
+margin-left: 0px;
+}
